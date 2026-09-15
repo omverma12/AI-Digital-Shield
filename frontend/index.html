@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Digital Shield</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="logo">🛡️</div>
+
+            <div>
+                <h1>AI Digital Shield</h1>
+                <p>Proactive AI-Powered Digital Scam Protection</p>
+            </div>
+        </header>
+
+
+        <section class="hero">
+
+            <h2>Detect threats before you fall for them.</h2>
+
+            <p>
+                Analyze suspicious messages and identify potential
+                phishing, scams and social-engineering attempts.
+            </p>
+
+        </section>
+
+
+        <section class="analyzer">
+
+            <label for="message">
+                Enter suspicious message
+            </label>
+
+            <textarea
+                id="message"
+                placeholder="Paste a suspicious message here..."
+            ></textarea>
+
+            <button onclick="analyzeMessage()">
+                🔍 Analyze Message
+            </button>
+
+        </section>
+
+
+        <section id="result" class="result hidden">
+
+            <div class="result-header">
+
+                <h2>Threat Analysis</h2>
+
+                <span id="riskLevel"></span>
+
+            </div>
+
+
+            <div class="score">
+
+                <span>Risk Score</span>
+
+                <strong id="riskScore">0</strong>
+
+                <span>/ 100</span>
+
+            </div>
+
+
+            <div>
+
+                <h3>⚠️ Detected Reasons</h3>
+
+                <ul id="reasons"></ul>
+
+            </div>
+
+
+            <div class="action">
+
+                <h3>🛡️ Recommended Action</h3>
+
+                <p id="recommendedAction"></p>
+
+            </div>
+
+        </section>
+
+
+        <footer>
+            AI Digital Shield • CODEनीति 2026
+        </footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
